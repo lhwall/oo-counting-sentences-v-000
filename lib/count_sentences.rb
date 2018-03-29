@@ -27,9 +27,10 @@ class String
   end
 
   def count_sentences
-   counting_array = self.split("!", ".", "?")
    return_array = []
-   counting_array.each do |item|
+   self.split("!", ".", "?")
+   return_array = []
+    do |item|
     if item != ""
       return_array << item
     end
