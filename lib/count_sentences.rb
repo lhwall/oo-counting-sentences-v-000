@@ -36,5 +36,5 @@ class String
   end
    return_array.length 
   end
-  end
+
 end
