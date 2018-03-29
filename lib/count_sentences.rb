@@ -28,7 +28,7 @@ class String
 
   def count_sentences
    return_array = []
-   self.split(/[\!\?\.]/).each do |item| #I used Reg
+   self.split(/[\!\?\.]/).each do |item| #I used Regex for this because if I tried to use all three items like "split(".", "!", "?")" it told me I had too many arguments.  
     if item != ""
       return_array << item
     end
