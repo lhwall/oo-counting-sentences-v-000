@@ -32,8 +32,8 @@ class String
    counting_array.each |item|
     if item != ""
       return_array << item
-    end   return_array.length 
-
+    end   
+    return_array.length 
   end
   end
 
